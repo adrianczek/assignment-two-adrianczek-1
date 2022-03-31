@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.sd4.application.AssignmentOne2022ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.017 s - in com.sd4.application.AssignmentOne2022ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.157 s - in com.sd4.application.AssignmentOne2022ApplicationTests
