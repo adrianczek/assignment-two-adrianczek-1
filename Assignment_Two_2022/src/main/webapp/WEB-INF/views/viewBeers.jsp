@@ -26,10 +26,11 @@
         <nav class="navbar navbar-inverse" style="background-color: RGBA(70, 66, 60, 1)">
             <div class="container-fluid">
               <div class="navbar-header">
-                <a class="navbar-brand" href="viewBeers">Global Beers</a>
+                <a class="navbar-brand" href="beers">Global Beers</a>
               </div>
               <ul class="nav navbar-nav">
-                <li class="active"><a href="viewBeers">Our Beers</a></li>
+                <li class="active"><a href="beers">Our Beers</a></li>
+                <li><a href="breweries">Our Breweries</a></li>
               </ul>
             </div>
         </nav>
@@ -55,7 +56,7 @@
             <tbody>
                 <c:forEach items="${beerslist}" var="aBeer">
                     <tr>
-                        <td><a href="beerDrilldown/{id}">${aBeer.id}</a></td>
+                        <td>${aBeer.id}</td>
                         <td>${aBeer.name}</td>    
                         <td>${aBeer.abv}</td>  
                         <td>${aBeer.ibu}</td>  
